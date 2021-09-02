@@ -6,7 +6,11 @@ body{
 /* Header Section */
 body header figure img{
      height: 50px;
-     margin: 10px 0px 100px 40px;
+     margin: 40px 0px 100px 40px;
+}
+
+body header figure figcaption{
+     display: none;
 }
 
 body main{

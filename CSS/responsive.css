@@ -1,350 +1,3 @@
-/* iPad | Portrait Mode */
-@media screen and (max-width: 768px){
-
-     body{
-          max-height: 768px;
-          max-width: 1024px;
-     }
-
-     body header figure{
-          width: 100vw;
-          text-align: center;
-     }
-
-     body header figure img{
-          height: 100px;
-          margin: auto;
-     }
-
-     body main {
-          max-width: 100%;
-          }
-     body main .main-header{
-          color: #FFFFFF;
-          font-size: 30px;
-          width: 100vw;
-          margin: 115px 0px 40px 0px;
-          text-align: center;
-     }
-
-     body main .users{
-          width: 500px;
-          margin: 0px auto;
-          display: flex;
-          flex-wrap: wrap;
-     }
-
-     body main .users .user-box{
-          height: 200px;
-          width: 200px;
-          margin: 0px 15px 60px 15px;
-     }
-
-     body main .users .user-box img{
-          border-radius: 5px;
-     }
-     
-     /* IMAGE CONTAINER Animation */
-     body main .users .user-box img:hover{
-          outline: 2px solid #FFFFFF;
-          background-color: #ffffff10;
-          transition-duration: 0.5s;
-     }
-     /* IMAGE CONTAINER Animation */
-
-     body main .users .user-box .profile{
-          padding: 30px;
-     }
-
-     body main .users .user-box figcaption{
-          font-size: 20px;
-          color: #FFFFFF;
-          margin: 10px auto;
-     }
-
-     body footer{
-          max-width: 100%;
-     }
-
-     body footer button{
-          color: #FFFFFF;
-          font-size: 20px;
-          font-weight: 600px;
-
-          height: 50px;
-          width: 300px;
-
-          position: absolute;
-          top: 80vh;
-          transform: translateX(-50%);
-     }
-}
-
-/* iPad | Landscape Mode */
-@media screen and (max-width: 1024px) and (orientation: landscape){
-     
-     body{
-          max-height: 768px;
-          max-width: 1024px;
-     }
-
-     body header figure{
-          width: 100vw;
-     }
-
-     body header figure img{
-          height: 50px;
-          margin: auto;
-     }
-
-     body main {
-          width: 100%;
-     }
-
-     body main .main-header{
-          color: #FFFFFF;
-          font-size: 30px;
-          width: 100vw;
-          margin: 70px 0px 30px 0px;
-          text-align: center;
-     }
-
-     body main .users{
-          width: 700px;
-          margin: 0px auto;
-          display: flex;
-          flex-wrap: wrap;
-     }
-
-     body main .users .user-box{
-          height: 150px;
-          width: 150px;
-          margin: 0px 15px 60px 15px;
-     }
-
-     body main .users .user-box img{
-          border-radius: 5px;
-     }
-     
-     /* IMAGE CONTAINER Animation */
-     body main .users .user-box img:hover{
-          outline: 2px solid #FFFFFF;
-          background-color: #ffffff10;
-          transition-duration: 0.5s;
-     }
-     /* IMAGE CONTAINER Animation */
-
-     body main .users .user-box .profile{
-          padding: 30px;
-     }
-
-     body main .users .user-box figcaption{
-          font-size: 20px;
-          color: #FFFFFF;
-          margin: 10px auto;
-     }
-
-     body footer{
-          max-width: 100%;
-     }
-
-     body footer button{
-          color: #FFFFFF;
-          font-size: 15px;
-          font-weight: 600px;
-
-          height: 35px;
-          width: 275px;
-
-          position: absolute;
-          top: 75vh;
-          transform: translateX(-50%);
-     }
-}
-
-/* iPhone X/XS | Portrait Mode */
-@media screen and (max-width: 375px){
-
-     body{
-          max-height: 812px;
-          max-width: 375px;
-     }
-     body header figure{
-          width: 100vw;
-          text-align: center;
-     }
-
-     body header figure img{
-          height: 50px;
-          margin: auto;
-     }
-
-     body main {
-          max-width: 100%;
-          }
-     body main .main-header{
-          color: #FFFFFF;
-          font-size: 15px;
-          width: 100vw;
-          margin: 150px 0px 0px 0px;
-          text-align: center;
-     }
-
-     body main .users{
-          width: 300px;
-          margin: 0px auto;
-          display: flex;
-          flex-wrap: wrap;
-     }
-
-     body main .users .user-box{
-          height: 100px;
-          width: 100px;
-          margin: 20px 10px 0px 10px;
-     }
-     
-     /* SECTION CONTAINER Animation */
-     body main .users .user-box:hover{
-          color: #FFFFFF;
-     }
-     /* SECTION CONTAINER Animation */
-     
-     body main .users .user-box img{
-          border-radius: 5px;
-     }
-     
-     /* IMAGE CONTAINER Animation */
-     body main .users .user-box img:hover{
-          outline: 2px solid #FFFFFF;
-          background-color: #ffffff10;
-          transition-duration: 0.5s;
-     }
-     /* IMAGE CONTAINER Animation */
-
-     body main .users .user-box .profile{
-          padding: 30px;
-     }
-
-     body main .users .user-box figcaption{
-          font-size: 9px;
-          color: #FFFFFF;
-          margin: 5px auto;
-     }
-
-     body footer{
-          max-width: 100%;
-     }
-
-     body footer button{
-          color: #FFFFFF;
-          font-size: 10px;
-          font-weight: 600px;
-
-          height: 30px;
-          width: 150px;
-
-          position: absolute;
-          top: 75vh;
-          transform: translateX(-50%);
-     }
-     
-     body footer button:hover{
-          border: 1px solid #FFFFFF;
-          color: #FFFFFF;
-     }
-}
-
-/* iPhone X/XS | Landscape Mode */
-@media screen and (max-width: 812px) and (orientation: landscape){
-     
-     body{
-          width: 812px;
-          height: 375px;
-     }
-
-     body header figure{
-          width: 100%;
-     }
-
-     body header figure img{
-          height: 50px;
-          margin: 0;
-     }
-
-     body main{
-          width: 100%;
-     }
-
-     body main .main-header{
-          color: #FFFFFF;
-          font-size: 20px;
-          width: 100vw;
-          margin: 30px 0px 0px 0px;
-          text-align: center;
-     }
-
-     body main .users{
-          width: 740px;
-          margin-top: 0px;
-          margin-right: auto;
-          margin-left: auto;
-          
-          display: flex;
-          flex-wrap: wrap;
-     }
-
-     body main .users .user-box{
-          height: 100px;
-          width: 100px;
-          margin: 20px 10px 0px 10px;
-     }
-     
-     /* SECTION CONTAINER Animation */
-     body main .users .user-box:active{
-          color: #FFFFFF;
-     }
-     /* SECTION CONTAINER Animation */
-     
-     body main .users .user-box img{
-          border-radius: 5px;
-     }
-     
-     /* IMAGE CONTAINER Animation */
-     body main .users .user-box img:active{
-          outline: 2px solid #FFFFFF;
-          background-color: #ffffff10;
-          transition-duration: 0.5s;
-     }
-     /* IMAGE CONTAINER Animation */
-
-     body main .users .user-box .profile{
-          padding: 20px;
-     }
-
-     body main .users .user-box figcaption{
-          font-size: 9px;
-          color: #FFFFFF;
-          margin: 5px auto;
-     }
-
-     body footer{
-          width: 100%;
-     }
-
-     body footer button{
-          color: #FFFFFF;
-          font-size: 10px;
-          font-weight: 600px;
-
-          height: 30px;
-          width: 200px;
-
-          position: absolute;
-          top: 50%;
-          transform: translateX(-50%);
-     }
-}
-
 /* Galaxy S9/S9+ | Portrait Mode */
 @media screen and (max-width: 375px){
 
@@ -360,6 +13,7 @@
      body header figure img{
           height: 50px;
           margin: auto;
+          margin-top: 20px;
      }
 
      body main {
@@ -367,9 +21,9 @@
           }
      body main .main-header{
           color: #FFFFFF;
-          font-size: 15px;
+          font-size: 20px;
           width: 100vw;
-          margin: 150px 0px 0px 0px;
+          margin: 50px 0px 0px 0px;
           text-align: center;
      }
 
@@ -381,9 +35,9 @@
      }
 
      body main .users .user-box{
-          height: 100px;
-          width: 100px;
-          margin: 20px 10px 0px 10px;
+          height: 186px;
+          width: 186px;
+          margin: 20px 10px 20px 10px;
      }
      
      /* SECTION CONTAINER Animation */
@@ -409,7 +63,8 @@
      }
 
      body main .users .user-box figcaption{
-          font-size: 9px;
+          font-size: 15px;
+          font-weight: 700;
           color: #FFFFFF;
           margin: 5px auto;
      }
@@ -425,10 +80,8 @@
 
           height: 30px;
           width: 150px;
+          margin: 100px auto;
 
-          position: absolute;
-          top: 75vh;
-          transform: translateX(-50%);
      }
      
      body footer button:hover{
